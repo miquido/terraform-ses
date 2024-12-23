@@ -1,9 +1,9 @@
 variable "top_domain" {
-  type = string
+  type        = string
   description = "domain under which SES will operate"
 }
 
 variable "dmarc_mailto" {
-  type = string
+  type        = string
   description = "rua=mailto:"
 }
